@@ -97,29 +97,6 @@ The script provides:
 - **Figure 2**: Line plot comparing actual vs predicted prices
 - **Figure 3**: Scatter plot showing prediction accuracy against perfect prediction line
 
-### Example Output
-```
-Model R² Score: 0.9987
-(1.0 = perfect prediction, 0.0 = poor prediction)
-
-Mean Squared Error: $2.4531
-Root Mean Squared Error: $1.5663
-Mean Absolute Error: $1.2345
-Mean Absolute Percentage Error: 0.89%
-
---- Current Market Data ---
-Current market price: $178.45
-Market status: Open
-```
-
-## Understanding the Metrics
-
-- **R² Score**: Ranges from 0 to 1. Higher values indicate better fit (>0.95 is excellent)
-- **RMSE**: Lower values indicate better predictions (measures average prediction error)
-- **MAE**: Average absolute difference between predicted and actual prices
-- **MAPE**: Percentage error (lower is better, <5% is good)
-
-
 ## Future Improvements
 
 - Add technical indicators (RSI, MACD, Moving Averages)
